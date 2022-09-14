@@ -1,39 +1,21 @@
-# ADGWEBSDK
-## an SDK to make Python Flask Applications
+# HandWritingRecognition App
 
-#### Template Styles
-This is powered by Soft-UI you can view the docs [here](https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard)
+I created this application using the `OCR approach`. I do intent to recycle this and build multiple iterations of the HandWritingRecognition project.
+Using, 
+- Neural Networking
+- Methods of NLP
 
-#### Front-End Support
-You could use `React.js`, `JavaScript`, `Angular`, `JQuery` ... etc for frontend stuff.
-
-#### Back-End Stuff
-This SDK is powered by `Flask` which is powered by `Python` and `Django` Web Frame Work 
-
-#### Getting Started
-
-First, you need to download/install the modules for python in `requirements.txt`
+![image](https://user-images.githubusercontent.com/45560312/190199579-a12a4548-9794-49d4-b243-53c1863656a5.png)
 
 
-you can do that with the command below
-`````
-pip install -r requirements.txt
-`````
+### Getting started
 
-- To run the application 
-`python3 server.py`
+#### Install `requirements.txt` / Modules
 
-#### Technical Details
-File directory
-```
---pages
-	-index.html # You add your pages here
---static
-	-css #Styling goes here
-	-fonts #Fonts goes here
-	-img #Image Resources goes here
-	-js #JavaScript Files goes here
-	-scss - #SCSS Styling goes here
-```
+`pip3 install -r requirements.txt`
 
+#### Run `app.py`
 
+`python3 app.py`
+
+### You can view the application on `localhost:8000`
